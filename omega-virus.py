@@ -4,16 +4,27 @@
 # Insert docopt user help menu here?
 #
 
+# Good resource for game mechanics w/o having to get game manual :D
+# https://boardgamegeek.com/thread/372462/omega-virus-human-scum-review
 
 #
 # End docopt
 #
 
+def difficulty()
+	# Define the length of the game
+	# 0 - 30 Minutes
+	# 1 - 20 Minutes
+	# 2 - 15 Minutes
+
 def sectors()
-	# Blue
-	# Green
-	# Red
-	# Yellow
+	# Docking Bays (Blue, Green, Red, Yellow)
+	# Blue Rooms
+	# Green Rooms
+	# Red Rooms
+	# Yellow Rooms
+	# When 9 minutes are left one sector is shut down, and every 3 minutes after this another is shut down.
+
 	
 def roomList()
 	# List of rooms
@@ -32,6 +43,7 @@ def roomContents()
 	# 6. Nothing at all
 
 def items()
+	# Four of each
 	# Access keys (Blue, Red, Yellow)
 	# Decoder - yellow
 	# Disruptor - blue
