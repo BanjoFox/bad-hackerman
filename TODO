@@ -1,0 +1,9 @@
+TODO:
+
+-- Open Game, make a proper list of rooms.
+-- Add movement rules (Players can only move three spaces) #Do we want to enforce this?
+-- Add attack rules. (Virus can only be defeated if: Player is in same room as virus AND has all three weapons).
+-- Add player inventory tracking. This is important!
+-- Add discovery exceptions. If player has an item, they are not allowed to find duplicates. 
+-- Code some stuff!
+
