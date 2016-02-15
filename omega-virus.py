@@ -28,6 +28,7 @@ def sectors()
 	# When 9 minutes are left one sector is shut down, and every 3 minutes after this another is shut down.
 	
 def roomList()
+	# Docking Bays (Blue, Green, Red, Yellow)
 	# List of rooms
 	# Green (open rooms)
 	# Blue (requires blue key)
@@ -52,6 +53,13 @@ def items()
 	# Probe
 	
 def players()
+	# Blue
+	# Green
+	# Red
+	# Yellow
+
+def probes()
+	# Probes can move, explore and be attacked just like players. However they cannot attack themselves.
 	# Blue
 	# Green
 	# Red
