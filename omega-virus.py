@@ -58,14 +58,14 @@ def items()
 	
 def playerBag()
 	# A place to define inventory. 
-	# bluePlayer
-		#blueKey = boolean
-		#redKey = boolean
-		#yellowKey = boolean
-		#blueProbe = boolean
-		#decoder = boolean
-		#disruptor = boolean
-		#negatron = boolean
+	def bluePlayer()
+		blueKey = boolean
+		redKey = boolean
+		yellowKey = boolean
+		blueProbe = boolean
+		decoder = boolean
+		disruptor = boolean
+		negatron = boolean
 	# Green
 	# Red
 	# Yellow
@@ -90,13 +90,16 @@ def secretCode()
 def userInput()
 	# We will need a way for players to input numbers (0,1,2)
 	# This is for room numbers, secret codes, and combat
+	blueCode = stdin
+	greenCode = stdin
+	redCode = stdin
+	yellowCode = stdin
 	
 def combat()
-	# Combat includes, players attacking one another (or their drones)
-	# as well as attaking the virus. 
+	# Combat includes, players attacking one another (or their drones) as well as attaking the virus. 
 	# Defender picks a value (0,1 or 2), and the Attacker picks one as well.
-	# If both match, then the attacker wins. I.e. the Virus is killed, 
-	# the player looses an item (at random), or the drone dies.
+	# If both match, then the attacker wins. I.e. the Virus is killed, the player looses an item (at random),
+	# or the drone dies.
 	
 def phrasing()
 	# This is a placeholder for all of the phrases that are used throuout the game.
