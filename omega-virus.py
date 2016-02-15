@@ -14,10 +14,14 @@ import random
 from random import randint
 
 def difficulty()
-	# Define the length of the game
+	# Define the length of the game (these values are probably wrong :D Need to check rulebook.
 	# 0 - 30 Minutes
 	# 1 - 20 Minutes
 	# 2 - 15 Minutes
+	
+def numPlayers()
+	# In the orginal game, the Computer asks each player to enter their secret code at the beginning of the game.
+	# This then defines which colors are active. There may be a simpler way of doing this though...
 
 def sectors()
 	# Docking Bays (Blue, Green, Red, Yellow)
@@ -45,15 +49,23 @@ def roomContents()
 	# 6. Nothing at all
 
 def items()
-	# Four of each
+	# Four of each, to be distributed across the map.
 	# Access keys (Blue, Red, Yellow)
 	# Decoder - yellow
 	# Disruptor - blue
 	# Negatron - red
 	# Probe
 	
-def players()
-	# Blue
+def playerBag()
+	# A place to define inventory. 
+	# bluePlayer
+		#blueKey = boolean
+		#redKey = boolean
+		#yellowKey = boolean
+		#blueProbe = boolean
+		#decoder = boolean
+		#disruptor = boolean
+		#negatron = boolean
 	# Green
 	# Red
 	# Yellow
