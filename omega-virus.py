@@ -18,11 +18,12 @@ def difficulty()
 	# 0 - 30 Minutes
 	# 1 - 20 Minutes
 	# 2 - 15 Minutes
+	;
 	
 def numPlayers()
 	# In the orginal game, the Computer asks each player to enter their secret code at the beginning of the game.
 	# This then defines which colors are active. There may be a simpler way of doing this though...
-
+	;
 def sectors()
 	# Docking Bays (Blue, Green, Red, Yellow)
 	# Blue Rooms
@@ -69,7 +70,7 @@ def playerBag()
 	# Green
 	# Red
 	# Yellow
-
+	;
 def probes()
 	# Probes can move, explore and be attacked just like players. However they cannot attack themselves.
 	# Blue
