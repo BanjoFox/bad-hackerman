@@ -1,0 +1,6 @@
+[package]
+name = "bad_hackerman"
+version = "0.1.0"
+authors = ["Banjo Fox <drbanjofox@protonmail.com>"]
+
+[dependencies]
